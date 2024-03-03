@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   font-family: sans-serif;
   scroll-behavior: smooth;
+  height: 100%;
 }
 
 *,
@@ -32,6 +33,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  height: 100%;
 }
 
 .hidden {
@@ -52,7 +54,6 @@ body {
   background-color: var(--primary-bg);
   flex-grow: 1;
   height: 100%;
-  display: flex;
   padding: 1.5rem;
 }
 
